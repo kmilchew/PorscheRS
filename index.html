@@ -1,0 +1,126 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <title>Porsche 911 GT2 RS</title>
+     <meta name="description" content="DESCRIPTION">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" type="text/css" href="style/style.css">
+     <link href="https://fonts.googleapis.com/css?family=Dosis:300,500" rel="stylesheet">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+     <script
+       src="https://code.jquery.com/jquery-3.3.1.js"></script>
+     <script type="text/javascript">
+       $(window).on('scroll', function(){
+         if ($(window).scrollTop()){
+           $('nav').addClass('black');
+         }
+         else
+         {
+           $('nav').removeClass('black');
+         }
+       })
+
+       $(document).ready(function(){
+       $("#1").click(function() {
+         $('html, body').animate({
+             scrollTop: $("#sec1").offset().top
+         }, 700);
+       });
+       });
+       $(document).ready(function(){
+       $("#2").click(function() {
+         $('html, body').animate({
+             scrollTop: $("#sec2").offset().top
+         }, 700);
+       });
+       });
+       $(document).ready(function(){
+       $("#3").click(function() {
+         $('html, body').animate({
+             scrollTop: $("#sec3").offset().top
+         }, 700);
+       });
+       });
+     </script>
+ </head>
+ <body>
+   <nav>
+     <img src="imgs/logo3.png" alt="Porsche logo">
+     <ul>
+       <li><a id="1" href="#">Home</a></li>
+       <li><a id="2" href="#">Specification</a></li>
+       <li><a id="3" href="#">Gallery</a></li>
+     </ul>
+   </nav>
+   <section class="sec1" id="sec1">
+     <a href="#"><i class="fas fa-angle-double-down"></i></a>
+     <div class="title">
+       <h1>The new 911 GT2 RS is simply the most powerful 911 ever built by Porsche - with the performance level of a super sports car.</h1>
+     </div>
+     <div id="slider">
+     <figure>
+     <img src="imgs\1.jpg" alt>
+     <img src="imgs\2.jpg" alt>
+     <img src="imgs\3.jpg" alt>
+     <img src="imgs\4.jpg" alt>
+     </figure>
+     </div>
+   </section>
+   <section class="sec2" id="sec2">
+     <div class="specs">
+       <table>
+         <tr>
+           <th>Engine</th>
+           <th>Displacement</th>
+           <th>Max. power</th>
+           <th>Max. torque</th>
+           <th>Acceleration (0 - 100 km/h)</th>
+           <th>Top speed</th>
+         </tr>
+         <tr>
+           <td>Twin-turbocharged boxer 6</td>
+           <td>3.8 l</td>
+           <td>690 hp</td>
+           <td>750 Nm</td>
+           <td>2.8 s</td>
+           <td>340 km/h</td>
+         </tr>
+       </table>
+     </div>
+   </section>
+   <section class="sec3" id="sec3">
+     <div class="row">
+       <div class="column">
+         <img src="imgs\gr1.jpg" alt="">
+         <img src="imgs\gr12.jpg" alt="">
+       </div>
+       <div class="column">
+         <img src="imgs\gr4.jpg" alt="">
+         <img src="imgs\gr5.jpg" alt="">
+         <img src="imgs\gr6.jpg" alt="">
+       </div>
+       <div class="column">
+         <img src="imgs\gr7.jpg" alt="">
+         <img src="imgs\gr10.jpg" alt="">
+       </div>
+       <div class="column">
+         <img src="imgs\gr10.jpg" alt="">
+         <img src="imgs\gr11.jpg" alt="">
+       </div>
+     </div>
+     <div class="footer">
+       <div class="social_media">
+         <ul>
+           <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+           <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+           <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+           <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+         </ul>
+     </div>
+   </section>
+ </body>
+ </html>
